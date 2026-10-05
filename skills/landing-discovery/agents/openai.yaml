@@ -1,0 +1,4 @@
+interface:
+  display_name: "Landing Discovery"
+  short_description: "SEO, AEO, GEO and crawlability for landing pages"
+  default_prompt: "Audit and implement technical SEO, entity clarity, AEO/GEO, and crawlability for this landing page while preserving its design."

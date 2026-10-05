@@ -1,0 +1,4 @@
+interface:
+  display_name: "GitHub Repository Bootstrap"
+  short_description: "Safely connect a local project and make its first GitHub push"
+  default_prompt: "Use the GitHub URL I provide to connect this local project, make a safe initial commit if needed, push it, and verify the result."
