@@ -1,4 +1,4 @@
 interface:
   display_name: "Commit and Push"
   short_description: "Publish focused changes safely without committing secrets or unrelated work"
-  default_prompt: "Commit and push only the changes relevant to the current task. Protect secrets and leave unrelated work untouched."
+  default_prompt: "Infer a specific commit message from the current task and staged diff, then commit and push only the relevant changes. Protect secrets and leave unrelated work untouched."

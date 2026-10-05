@@ -28,7 +28,9 @@ Before committing, inspect the names and diffs of the proposed staged files with
 ## Commit with context
 
 - Review the staged diff and run the smallest relevant verification available for the touched area when proportionate to risk.
-- Use a concise commit message that accurately describes the implemented work and follows the repository's existing convention when one is evident.
+- Derive the commit message from the current task and the staged diff. Prefer the repository's established convention; otherwise use a concise conventional prefix when it accurately fits, such as feat, fix, docs, refactor, test, or chore.
+- Make the subject specific enough to explain the user-visible or technical outcome. Avoid generic messages such as update, changes, work in progress, or temporary unless that is genuinely the intended outcome.
+- Do not ask the user to write the message when the task and diff provide enough evidence. Ask only when the staged changes span unrelated outcomes or their intent cannot be determined safely.
 - Do not amend, reset, restore, clean, stash, rebase, or alter Git configuration unless the user explicitly asks.
 - If a commit hook or test fails, report the actual failure and do not bypass it with --no-verify unless the user explicitly authorizes that exception.
 
